@@ -7,3 +7,7 @@ node_name                "navneetpare"
 client_key               "#{current_dir}/navneetpare.pem"
 chef_server_url          "https://api.chef.io/organizations/npare"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_copyright	 "Navneet Pare"
+cookbook_license	 "All rights reserved"
+cookbook_email		 "fly_with_navneet@yahoo.com"
+
