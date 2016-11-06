@@ -9,8 +9,8 @@ ip = IPAddress("192.168.0.152/24")
 Chef::Log.info("Subnet M4ask of #{ip} is #{ip.netmask}")
 
 ip = '10.10.0.0/18'
-mask = netmask(ip) # using the ipaddress_helper library
-Chef::Log.info("Netmask of #{ip} is #{mask} - powered by ipaddress_helper")
+mask = IPAddressHelper.netmask(ip) # using the IPAddressHelper library
+Chef::Log.info("Netmask of #{ip} is #{mask} - powered by IPAddressHelper")
 
 Chef::Log.info('**** Going to create files now ...')
 
