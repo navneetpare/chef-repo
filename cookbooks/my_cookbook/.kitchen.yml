@@ -1,6 +1,7 @@
 ---
 driver:
   name: vagrant
+  vm_hostname: centos7server 
 
 provisioner:
   name: chef_solo
